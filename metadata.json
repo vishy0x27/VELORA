@@ -1,0 +1,6 @@
+{
+  "name": "VELORA — Less, But Better. | Luxury Fashion",
+  "description": "Contemporary luxury fashion e-commerce with dark editorial aesthetics, oversized serif typography, curated silhouettes, interactive shopping bag, and checkout flow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --color-velora-bg: #101110;
+  --color-velora-surface: #191A17;
+  --color-velora-card: #1E201D;
+  --color-velora-border: #34342F;
+  --color-velora-borderLight: #474740;
+  --color-velora-text: #F4F0E8;
+  --color-velora-secondary: #B8B5AC;
+  --color-velora-muted: #85847C;
+  --color-velora-accent: #B6A58A;
+  --color-velora-accentHover: #C9BAA1;
+  --color-velora-ivory: #F5F2EB;
+  --color-velora-ivoryText: #101110;
+}
+
+/* Custom scrollbar and smooth scroll */
+html {
+  color-scheme: dark;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101110;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #34342F;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B6A58A;
+}
